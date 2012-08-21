@@ -89,7 +89,7 @@ public class ApolloUtils {
 
             @Override
             public void run() {
-                ApolloUtils.setBackground(view, bitmap);
+                //ApolloUtils.setBackground(view, bitmap);
             }
         });
     }

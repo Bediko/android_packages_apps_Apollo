@@ -1,0 +1,70 @@
+# view res/layout/audio_player_browser.xml #generated:9
+# view res/layout/library_browser.xml #generated:11
+# view res/layout/library_browser.xml #generated:22
+# view res/layout/track_browser.xml #generated:10
+# view res/layout/track_browser.xml #generated:21
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.andrew.apollo.activities.AudioPlayerHolder { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.andrew.apollo.activities.MusicLibrary { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.andrew.apollo.activities.QueryBrowserActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.andrew.apollo.activities.QuickQueue { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.andrew.apollo.activities.TracksBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.andrew.apollo.app.widgets.AppWidget11 { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.andrew.apollo.app.widgets.AppWidget41 { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class com.andrew.apollo.app.widgets.AppWidget42 { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.andrew.apollo.menu.PlaylistDialog { <init>(...); }
+
+# view AndroidManifest.xml #generated:134
+-keep class com.andrew.apollo.menu.PlaylistPicker { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.andrew.apollo.preferences.SettingsHolder { <init>(...); }
+
+# view res/xml/settings.xml #generated:14
+-keep class com.andrew.apollo.preferences.ThemePreview { <init>(...); }
+
+# view AndroidManifest.xml #generated:188
+-keep class com.andrew.apollo.service.ApolloService { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class com.andrew.apollo.service.MediaButtonIntentReceiver { <init>(...); }
+
+# view res/layout/bottom_action_bar.xml #generated:15
+-keep class com.andrew.apollo.ui.widgets.BottomActionBar { <init>(...); }
+
+# view res/layout/bottom_action_bar.xml #generated:50
+# view res/layout/bottom_action_bar.xml #generated:56
+# view res/layout/bottom_action_bar.xml #generated:62
+-keep class com.andrew.apollo.ui.widgets.BottomActionBarItem { <init>(...); }
+
+# view res/layout/audio_controls.xml #generated:52
+# view res/layout/audio_controls.xml #generated:63
+-keep class com.andrew.apollo.ui.widgets.RepeatingImageButton { <init>(...); }
+
+# view res/layout/library_browser.xml #generated:6
+-keep class com.andrew.apollo.ui.widgets.ScrollableTabView { <init>(...); }
+
+# onClick res/layout/theme_preview.xml #generated:22
+-keepclassmembers class * { *** applyTheme(...); }
+
+# onClick res/layout/theme_preview.xml #generated:29
+-keepclassmembers class * { *** getThemes(...); }
+
